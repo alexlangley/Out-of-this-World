@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA071A4193FA37900A72EE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA071A3193FA37900A72EE4 /* Foundation.framework */; };
+		FAA071A6193FA37900A72EE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA071A5193FA37900A72EE4 /* CoreGraphics.framework */; };
+		FAA071A8193FA37900A72EE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA071A7193FA37900A72EE4 /* UIKit.framework */; };
+		FAA071AE193FA37900A72EE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA071AC193FA37900A72EE4 /* InfoPlist.strings */; };
+		FAA071B0193FA37900A72EE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071AF193FA37900A72EE4 /* main.m */; };
+		FAA071B4193FA37900A72EE4 /* OWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071B3193FA37900A72EE4 /* OWAppDelegate.m */; };
+		FAA071B7193FA37900A72EE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA071B5193FA37900A72EE4 /* Main.storyboard */; };
+		FAA071BA193FA37900A72EE4 /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071B9193FA37900A72EE4 /* OWViewController.m */; };
+		FAA071BC193FA37900A72EE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA071BB193FA37900A72EE4 /* Images.xcassets */; };
+		FAA071C3193FA37900A72EE4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA071C2193FA37900A72EE4 /* XCTest.framework */; };
+		FAA071C4193FA37900A72EE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA071A3193FA37900A72EE4 /* Foundation.framework */; };
+		FAA071C5193FA37900A72EE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA071A7193FA37900A72EE4 /* UIKit.framework */; };
+		FAA071CD193FA37900A72EE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA071CB193FA37900A72EE4 /* InfoPlist.strings */; };
+		FAA071CF193FA37900A72EE4 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071CE193FA37900A72EE4 /* Out_of_this_WorldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA071C6193FA37900A72EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA07198193FA37900A72EE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA0719F193FA37900A72EE4;
+			remoteInfo = "Out of this World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA071A0193FA37900A72EE4 /* Out of this World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Out of this World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA071A3193FA37900A72EE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAA071A5193FA37900A72EE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAA071A7193FA37900A72EE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAA071AB193FA37900A72EE4 /* Out of this World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this World-Info.plist"; sourceTree = "<group>"; };
+		FAA071AD193FA37900A72EE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAA071AF193FA37900A72EE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA071B1193FA37900A72EE4 /* Out of this World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Out of this World-Prefix.pch"; sourceTree = "<group>"; };
+		FAA071B2193FA37900A72EE4 /* OWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWAppDelegate.h; sourceTree = "<group>"; };
+		FAA071B3193FA37900A72EE4 /* OWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWAppDelegate.m; sourceTree = "<group>"; };
+		FAA071B6193FA37900A72EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA071B8193FA37900A72EE4 /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
+		FAA071B9193FA37900A72EE4 /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
+		FAA071BB193FA37900A72EE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAA071C1193FA37900A72EE4 /* Out of this WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA071C2193FA37900A72EE4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAA071CA193FA37900A72EE4 /* Out of this WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this WorldTests-Info.plist"; sourceTree = "<group>"; };
+		FAA071CC193FA37900A72EE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAA071CE193FA37900A72EE4 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA0719D193FA37900A72EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA071A6193FA37900A72EE4 /* CoreGraphics.framework in Frameworks */,
+				FAA071A8193FA37900A72EE4 /* UIKit.framework in Frameworks */,
+				FAA071A4193FA37900A72EE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA071BE193FA37900A72EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA071C3193FA37900A72EE4 /* XCTest.framework in Frameworks */,
+				FAA071C5193FA37900A72EE4 /* UIKit.framework in Frameworks */,
+				FAA071C4193FA37900A72EE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA07197193FA37900A72EE4 = {
+			isa = PBXGroup;
+			children = (
+				FAA071A9193FA37900A72EE4 /* Out of this World */,
+				FAA071C8193FA37900A72EE4 /* Out of this WorldTests */,
+				FAA071A2193FA37900A72EE4 /* Frameworks */,
+				FAA071A1193FA37900A72EE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA071A1193FA37900A72EE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA071A0193FA37900A72EE4 /* Out of this World.app */,
+				FAA071C1193FA37900A72EE4 /* Out of this WorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA071A2193FA37900A72EE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA071A3193FA37900A72EE4 /* Foundation.framework */,
+				FAA071A5193FA37900A72EE4 /* CoreGraphics.framework */,
+				FAA071A7193FA37900A72EE4 /* UIKit.framework */,
+				FAA071C2193FA37900A72EE4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA071A9193FA37900A72EE4 /* Out of this World */ = {
+			isa = PBXGroup;
+			children = (
+				FAA071B2193FA37900A72EE4 /* OWAppDelegate.h */,
+				FAA071B3193FA37900A72EE4 /* OWAppDelegate.m */,
+				FAA071B5193FA37900A72EE4 /* Main.storyboard */,
+				FAA071B8193FA37900A72EE4 /* OWViewController.h */,
+				FAA071B9193FA37900A72EE4 /* OWViewController.m */,
+				FAA071BB193FA37900A72EE4 /* Images.xcassets */,
+				FAA071AA193FA37900A72EE4 /* Supporting Files */,
+			);
+			path = "Out of this World";
+			sourceTree = "<group>";
+		};
+		FAA071AA193FA37900A72EE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA071AB193FA37900A72EE4 /* Out of this World-Info.plist */,
+				FAA071AC193FA37900A72EE4 /* InfoPlist.strings */,
+				FAA071AF193FA37900A72EE4 /* main.m */,
+				FAA071B1193FA37900A72EE4 /* Out of this World-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA071C8193FA37900A72EE4 /* Out of this WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA071CE193FA37900A72EE4 /* Out_of_this_WorldTests.m */,
+				FAA071C9193FA37900A72EE4 /* Supporting Files */,
+			);
+			path = "Out of this WorldTests";
+			sourceTree = "<group>";
+		};
+		FAA071C9193FA37900A72EE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA071CA193FA37900A72EE4 /* Out of this WorldTests-Info.plist */,
+				FAA071CB193FA37900A72EE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA0719F193FA37900A72EE4 /* Out of this World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA071D2193FA37900A72EE4 /* Build configuration list for PBXNativeTarget "Out of this World" */;
+			buildPhases = (
+				FAA0719C193FA37900A72EE4 /* Sources */,
+				FAA0719D193FA37900A72EE4 /* Frameworks */,
+				FAA0719E193FA37900A72EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Out of this World";
+			productName = "Out of this World";
+			productReference = FAA071A0193FA37900A72EE4 /* Out of this World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA071C0193FA37900A72EE4 /* Out of this WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA071D5193FA37900A72EE4 /* Build configuration list for PBXNativeTarget "Out of this WorldTests" */;
+			buildPhases = (
+				FAA071BD193FA37900A72EE4 /* Sources */,
+				FAA071BE193FA37900A72EE4 /* Frameworks */,
+				FAA071BF193FA37900A72EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA071C7193FA37900A72EE4 /* PBXTargetDependency */,
+			);
+			name = "Out of this WorldTests";
+			productName = "Out of this WorldTests";
+			productReference = FAA071C1193FA37900A72EE4 /* Out of this WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA07198193FA37900A72EE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Truu Bruu";
+				TargetAttributes = {
+					FAA071C0193FA37900A72EE4 = {
+						TestTargetID = FAA0719F193FA37900A72EE4;
+					};
+				};
+			};
+			buildConfigurationList = FAA0719B193FA37900A72EE4 /* Build configuration list for PBXProject "Out of this World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA07197193FA37900A72EE4;
+			productRefGroup = FAA071A1193FA37900A72EE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA0719F193FA37900A72EE4 /* Out of this World */,
+				FAA071C0193FA37900A72EE4 /* Out of this WorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA0719E193FA37900A72EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA071BC193FA37900A72EE4 /* Images.xcassets in Resources */,
+				FAA071AE193FA37900A72EE4 /* InfoPlist.strings in Resources */,
+				FAA071B7193FA37900A72EE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA071BF193FA37900A72EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA071CD193FA37900A72EE4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA0719C193FA37900A72EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA071B4193FA37900A72EE4 /* OWAppDelegate.m in Sources */,
+				FAA071BA193FA37900A72EE4 /* OWViewController.m in Sources */,
+				FAA071B0193FA37900A72EE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA071BD193FA37900A72EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA071CF193FA37900A72EE4 /* Out_of_this_WorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA071C7193FA37900A72EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA0719F193FA37900A72EE4 /* Out of this World */;
+			targetProxy = FAA071C6193FA37900A72EE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA071AC193FA37900A72EE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA071AD193FA37900A72EE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAA071B5193FA37900A72EE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA071B6193FA37900A72EE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA071CB193FA37900A72EE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA071CC193FA37900A72EE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA071D0193FA37900A72EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA071D1193FA37900A72EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA071D3193FA37900A72EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
+				INFOPLIST_FILE = "Out of this World/Out of this World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAA071D4193FA37900A72EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
+				INFOPLIST_FILE = "Out of this World/Out of this World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAA071D6193FA37900A72EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Out of this World.app/Out of this World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Out of this WorldTests/Out of this WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAA071D7193FA37900A72EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Out of this World.app/Out of this World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
+				INFOPLIST_FILE = "Out of this WorldTests/Out of this WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA0719B193FA37900A72EE4 /* Build configuration list for PBXProject "Out of this World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA071D0193FA37900A72EE4 /* Debug */,
+				FAA071D1193FA37900A72EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA071D2193FA37900A72EE4 /* Build configuration list for PBXNativeTarget "Out of this World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA071D3193FA37900A72EE4 /* Debug */,
+				FAA071D4193FA37900A72EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA071D5193FA37900A72EE4 /* Build configuration list for PBXNativeTarget "Out of this WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA071D6193FA37900A72EE4 /* Debug */,
+				FAA071D7193FA37900A72EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA07198193FA37900A72EE4 /* Project object */;
+}
