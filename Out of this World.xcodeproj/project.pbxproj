@@ -14,13 +14,14 @@
 		FAA071B0193FA37900A72EE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071AF193FA37900A72EE4 /* main.m */; };
 		FAA071B4193FA37900A72EE4 /* OWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071B3193FA37900A72EE4 /* OWAppDelegate.m */; };
 		FAA071B7193FA37900A72EE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA071B5193FA37900A72EE4 /* Main.storyboard */; };
-		FAA071BA193FA37900A72EE4 /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071B9193FA37900A72EE4 /* OWViewController.m */; };
 		FAA071BC193FA37900A72EE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA071BB193FA37900A72EE4 /* Images.xcassets */; };
 		FAA071C3193FA37900A72EE4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA071C2193FA37900A72EE4 /* XCTest.framework */; };
 		FAA071C4193FA37900A72EE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA071A3193FA37900A72EE4 /* Foundation.framework */; };
 		FAA071C5193FA37900A72EE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA071A7193FA37900A72EE4 /* UIKit.framework */; };
 		FAA071CD193FA37900A72EE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA071CB193FA37900A72EE4 /* InfoPlist.strings */; };
 		FAA071CF193FA37900A72EE4 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071CE193FA37900A72EE4 /* Out_of_this_WorldTests.m */; };
+		FAA071DA193FA70900A72EE4 /* OWOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071D9193FA70900A72EE4 /* OWOuterSpaceTableViewController.m */; };
+		FAA071DD193FC6B800A72EE4 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA071DC193FC6B800A72EE4 /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		FAA071B2193FA37900A72EE4 /* OWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWAppDelegate.h; sourceTree = "<group>"; };
 		FAA071B3193FA37900A72EE4 /* OWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWAppDelegate.m; sourceTree = "<group>"; };
 		FAA071B6193FA37900A72EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAA071B8193FA37900A72EE4 /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
-		FAA071B9193FA37900A72EE4 /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
 		FAA071BB193FA37900A72EE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAA071C1193FA37900A72EE4 /* Out of this WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA071C2193FA37900A72EE4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FAA071CA193FA37900A72EE4 /* Out of this WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this WorldTests-Info.plist"; sourceTree = "<group>"; };
 		FAA071CC193FA37900A72EE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAA071CE193FA37900A72EE4 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
+		FAA071D8193FA70900A72EE4 /* OWOuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWOuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		FAA071D9193FA70900A72EE4 /* OWOuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWOuterSpaceTableViewController.m; sourceTree = "<group>"; };
+		FAA071DB193FC6B800A72EE4 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		FAA071DC193FC6B800A72EE4 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,8 @@
 				FAA071B2193FA37900A72EE4 /* OWAppDelegate.h */,
 				FAA071B3193FA37900A72EE4 /* OWAppDelegate.m */,
 				FAA071B5193FA37900A72EE4 /* Main.storyboard */,
-				FAA071B8193FA37900A72EE4 /* OWViewController.h */,
-				FAA071B9193FA37900A72EE4 /* OWViewController.m */,
+				FAA071D8193FA70900A72EE4 /* OWOuterSpaceTableViewController.h */,
+				FAA071D9193FA70900A72EE4 /* OWOuterSpaceTableViewController.m */,
 				FAA071BB193FA37900A72EE4 /* Images.xcassets */,
 				FAA071AA193FA37900A72EE4 /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		FAA071AA193FA37900A72EE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAA071DB193FC6B800A72EE4 /* AstronomicalData.h */,
+				FAA071DC193FC6B800A72EE4 /* AstronomicalData.m */,
 				FAA071AB193FA37900A72EE4 /* Out of this World-Info.plist */,
 				FAA071AC193FA37900A72EE4 /* InfoPlist.strings */,
 				FAA071AF193FA37900A72EE4 /* main.m */,
@@ -200,6 +205,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Truu Bruu";
 				TargetAttributes = {
+					FAA0719F193FA37900A72EE4 = {
+						DevelopmentTeam = E2453KHH93;
+					};
 					FAA071C0193FA37900A72EE4 = {
 						TestTargetID = FAA0719F193FA37900A72EE4;
 					};
@@ -250,9 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA071DA193FA70900A72EE4 /* OWOuterSpaceTableViewController.m in Sources */,
 				FAA071B4193FA37900A72EE4 /* OWAppDelegate.m in Sources */,
-				FAA071BA193FA37900A72EE4 /* OWViewController.m in Sources */,
 				FAA071B0193FA37900A72EE4 /* main.m in Sources */,
+				FAA071DD193FC6B800A72EE4 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
 				INFOPLIST_FILE = "Out of this World/Out of this World-Info.plist";
@@ -390,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
 				INFOPLIST_FILE = "Out of this World/Out of this World-Info.plist";
